@@ -2,6 +2,10 @@
 
 [auto-correct](https://github.com/huacnlee/auto-correct) plugin for [html-pipeline](https://github.com/jch/html-pipeline).
 
+
+[![Gem Version](https://badge.fury.io/rb/html-pipeline-auto-correct.svg)](https://rubygems.org/gems/html-pipeline-auto-correct) [![Build
+Status](https://api.travis-ci.org/huacnlee/html-pipeline-auto-correct.svg?branch=master&.svg)](http://travis-ci.org/huacnlee/html-pipeline-auto-correct)
+
 ## Installation
 
 Add this line to your application’s Gemfile:
