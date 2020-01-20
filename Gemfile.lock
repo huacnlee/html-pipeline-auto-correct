@@ -1,0 +1,50 @@
+PATH
+  remote: .
+  specs:
+    html-pipeline-auto-correct (0.1.0)
+      auto-correct (>= 0.2.0)
+      html-pipeline (>= 2.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (6.0.2.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+      zeitwerk (~> 2.2)
+    auto-correct (0.2.0)
+      nokogiri (>= 1.4)
+    commonmarker (0.20.2)
+      ruby-enum (~> 0.5)
+    concurrent-ruby (1.1.5)
+    html-pipeline (2.12.3)
+      activesupport (>= 2)
+      nokogiri (>= 1.4)
+    i18n (1.8.2)
+      concurrent-ruby (~> 1.0)
+    mini_portile2 (2.4.0)
+    minitest (5.14.0)
+    nokogiri (1.10.7)
+      mini_portile2 (~> 2.4.0)
+    rake (13.0.1)
+    ruby-enum (0.7.2)
+      i18n
+    thread_safe (0.3.6)
+    tzinfo (1.2.6)
+      thread_safe (~> 0.1)
+    zeitwerk (2.2.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activesupport
+  commonmarker
+  html-pipeline-auto-correct!
+  minitest
+  rake
+
+BUNDLED WITH
+   2.0.2
