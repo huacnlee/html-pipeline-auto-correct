@@ -1,5 +1,6 @@
 # frozen_string_literal: true
-require "auto-correct"
+
+require "autocorrect-rb"
 
 module HTML
   class Pipeline
@@ -12,6 +13,7 @@ module HTML
           html = ::AutoCorrect.format(content)
 
           next if html == content
+
           node.replace(html)
         end
         doc
